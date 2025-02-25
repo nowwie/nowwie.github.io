@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            color: #FFFF;
+            text-align: center;
+            background-color: #070F2B;
+        }
+
+        header h1 {
+            color: #15F5BA;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        table {
+            margin-top: 20px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table td {
+            padding: 10px;
+        }
+
+        table td img {
+            border-radius: 50%;
+            border: 2px solid #FFFF;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        table td h2 {
+            color: #15F5BA;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+        }
+
+        table td p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        table.skills-table {
+            margin-top: 30px;
+            border-collapse: collapse;
+            width: 90%;
+        }
+
+        table.skills-table td {
+            text-align: center;
+            vertical-align: middle;
+            padding: 15px;
+            background-color: #070F2B;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 120px;
+        }
+
+        table.skills-table td img {
+            max-width: 40px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #15F5BA;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        iframe {
+            border: 0;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 > Welcome to My Profile </h1>
+    </header>
+
+    <table align="center" border="0" cellpadding="10" cellspacing="0">
+        <tr>
+            <td align="center">
+                <img src="image.png" width="150" height="150">
+            </td>
+            <td align="left">
+                <h2>Nopas</h2>
+                <p><b>Hobi:</b> Traveling</p>
+                <p><b>Jurusan:</b> Sistem Informasi</p>
+                <p><b>Instagram:</b> 
+                    <a href="https://www.instagram.com/nopekgta" target="_blank" 
+                        style="text-decoration: none; color: #15F5BA; font-weight: bold;">
+                        @nopekgta
+                    </a>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" style="padding-top: 20px;">
+                <h2>About Me</h2>
+                <p>Mahasiswa Sistem Informasi yang tertarik pada eksplorasi teknologi dalam pendidikan serta bisnis.</p>
+            </td>
+        </tr>
+    </table>
+
+    <h2>My Education Journey</h2>
+    <table align="center" width="80%" style="font-size: 16px;">
+        <tr>
+            <td align="left" style="padding-right: 50px;">
+                <p><b>• 2021 - 2024</b><br> Belajar di <b>SMK Telkom Malang</b>, mengambil jurusan Rekayasa Perangkat Lunak.</p></br>
+            </td>
+            <td align="right">
+                <p><b>• 2024 - Now</b><br> Melanjutkan pendidikan di <b>Universitas Brawijaya</b>, jurusan Sistem Informasi. </p></br>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Keahlian Saya</h2>
+
+    <table class="skills-table">
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo_2022.png" alt="Microsoft"><br><b>Microsoft</b></td>
+            <td><img src="kotlin-logo.png" alt="Kotlin"><br><b>Kotlin</b></td>
+            <td><img src="java-logo.png" alt="Java"><br><b>Java</b></td>
+            <td><img src="php-logo.png" alt="PHP"><br><b>PHP</b></td>
+            <td><img src="sql-logo.png" alt="SQL"><br><b>SQL</b></td>
+        </tr>
+        <tr>
+            <td><img src="html-logo.png" alt="HTML"><br><b>HTML</b></td>
+            <td><img src="css-logo.png" alt="CSS"><br><b>CSS</b></td>
+            <td><img src="nextjs-logo.png" alt="Next.Js"><br><b>Next.Js</b></td>
+            <td><img src="figma-logo.png" alt="Figma"><br><b>Figma</b></td>
+            <td><img src="canva-logo.png" alt="Canva"><br><b>Canva</b></td>
+        </tr>
+        <tr>
+            <td><img src="wordpress-logo.png" alt="WordPress"><br><b>WordPress</b></td>
+            <td><img src="trello-logo.png" alt="Trello"><br><b>Trello</b></td>
+            <td><img src="spreadsheet-logo.png" alt="Spreadsheets"><br><b>Spreadsheets</b></td>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+
+    <h2>Lokasi Saya</h2>
+    <div>
+        <iframe width="600" height="450" loading="lazy" allowfullscreen 
+            referrerpolicy="no-referrer-when-downgrade" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.975931524477!2d111.326389!3d-7.633806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMzgnMDEuNyJTIDExMcKwMTknMzUuMCJF!5e0!3m2!1sen!2sid!4v1700000000000">
+        </iframe>
+    </div>
+
+</body>
+</html>
